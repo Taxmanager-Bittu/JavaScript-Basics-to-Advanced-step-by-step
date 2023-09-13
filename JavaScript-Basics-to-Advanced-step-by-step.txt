@@ -1,0 +1,117 @@
+JavaScript Basics
+JavaScript - Introduction
+JavaScript - Introduction to Variables, Operators and Expressions
+
+Data Types
+JavaScript - Numbers
+JavaScript - Null
+JavaScript - Boolean
+JavaScript - Bigint
+JavaScript - Symbol 
+JavaScript - String
+JavaScript - Null
+JavaScript - Undefined
+
+Conditional Statements
+JavaScript - Conditional Statement: If-else
+JavaScript - Conditional Statement: Switch
+
+Operators
+JavaScript - Arithmetic Operators
+JavaScript - Assignment Operators
+JavaScript - Comparison and Logical Operators
+
+Type Coercion
+JavaScript - Implicit Type Coercion
+JavaScript - Explicit Type Coercion
+
+Objects and Arrays
+JavaScript - Objects
+JavaScript - Arrays 
+
+Loops
+JavaScript - Introduction to Loops
+JavaScript - While Loop
+JavaScript - For Loops
+
+Functions and Hoisting
+JavaScript - Functions
+JavaScript - Function Arguments
+JavaScript - Scope and Environment
+JavaScript - Variable Hoisting
+JavaScript - Function Hoisting
+
+Document Object Model(DOM)
+JavaScript - Introduction to DOM
+JavaScript - Select HTML Elements
+JavaScript - Query Selectors
+JavaScript - Update HTML Elements
+JavaScript - Updating Styles
+JavaScript - Intro to Events
+JavaScript - Add and Remove Classes from HTML Elements
+JavaScript - Getting Styles
+JavaScript - Form Events
+JavaScript - Keyboard Events
+JavaScript - Mouse Events
+JavaScript - Create HTML Elements 
+JavaScript- Update and Delete HTML Elements
+
+Browser Object Model
+JavaScript - Introduction to Browser Object Model
+JavaScript - Screen and Navigator Object
+JavaScript - History and  Location Object
+
+Mini Project
+JavaScript - Mini-Project 1: Smartwatch Showcase
+JavaScript - Mini-Project 2: Calculator App
+
+Regular Expressions
+JavaScript - Introduction to Regular Expressions
+JavaScript - Meta-characters and Character Classes
+JavaScript - Regex Quantifiers
+JavaScript - Using Regex inside JavaScript
+JavaScript - Regex Groups
+JavaScript - Form Validation using Regex
+
+OOPs in JavaScript
+JavaScript - Introduction to Object Oriented Programming
+JavaScript - The "this" Keyword
+JavaScript - Constructor Functions
+JavaScript - Inheritance and Prototype Chain
+JavaScript - Prototype Implementation
+
+HTTP Requests
+JavaScript - Understanding Frontend and Backend
+JavaScript - HTTP Request and Response
+JavaScript - Introduction to JSON
+JavaScript - Introduction to AJAX
+JavaScript - Handling HTTP Response
+
+jQuery
+jQuery - Introduction
+jQuery - Selectors and Filters
+jQuery - Add/Update HTML Elements
+jQuery - Add/Update Styles
+jQuery - Handling HTML Events
+jQuery - Making AJAX Calls
+
+JavaScript Assessment
+JavaScript - Assessment
+
+Bonus: ES6 for ReactJS
+ES6 - Introduction
+ES6 - Variable Creation using "let" and "const"
+ES6 - Template Strings
+ES6 - Arrow Functions
+ES6 - Rest Operator
+ES6 - Spread Operator
+ES6 - Destructuring
+ES6 - Array Functions: map()
+ES6 - Arrow Functions: reduce()
+ES6 - Arrow Functions: filter()
+ES6 - Arrow Functions: find() and findIndex()
+ES6 - Introduction to Classes
+ES6 - Inheritance in ES6
+ES6 - Callbacks and Promises
+ES6 - Working with Promises
+ES6 - Chaining Promises

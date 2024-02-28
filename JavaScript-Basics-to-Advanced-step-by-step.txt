@@ -12,14 +12,14 @@ JavaScript - String
 JavaScript - Null
 JavaScript - Undefined
 
-Conditional Statements
-JavaScript - Conditional Statement: If-else
-JavaScript - Conditional Statement: Switch
-
 Operators
 JavaScript - Arithmetic Operators
 JavaScript - Assignment Operators
 JavaScript - Comparison and Logical Operators
+
+Conditional Statements
+JavaScript - Conditional Statement: If-else
+JavaScript - Conditional Statement: Switch
 
 Type Coercion
 JavaScript - Implicit Type Coercion

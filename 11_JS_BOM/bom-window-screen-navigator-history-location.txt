@@ -1,0 +1,1 @@
+BOM: Window, Screen, Navigator, History, Location

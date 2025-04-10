@@ -1,0 +1,21 @@
+Introduction to JavaScript
+
+🔷 JavaScript Introduction Topics (Planned)
+1. What is JavaScript?
+2. How JavaScript Works in Browsers
+3. Embedding JavaScript (Inline, Internal, External)
+4. Variables (var, let, const)
+5. Data Types (String, Number, Boolean, Object, Array, Null, Undefined)
+6. Operators (Arithmetic, Assignment, Comparison, Logical)
+7. Conditional Statements (if, else, switch)
+8. Loops (for, while, do...while)
+9. Functions (Declaration, Expression, Arrow Functions)
+10. Events and Event Handling (onclick, onchange, etc.)
+11. DOM Manipulation (getElementById, querySelector, etc.)
+12. Arrays and Array Methods (push, pop, map, filter)
+13. Objects and Object Methods
+14. Timing Functions (setTimeout, setInterval)
+15. Introduction to ES6 Features
+16. Error Handling (try, catch, finally)
+17. Form Validation (Basic JS-based)
+18. Console Methods (console.log, console.error, etc.)

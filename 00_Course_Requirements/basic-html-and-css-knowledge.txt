@@ -1,0 +1,63 @@
+Basic HTML & CSS Knowledge
+
+🔷 HTML SECTION
+1. What is HTML?
+2. HTML Document Structure
+3. Tags, Elements, and Attributes
+4. Headings, Paragraphs, and Text Formatting
+5. Links, Images, Lists (Ordered & Unordered)
+6. Tables and Forms
+
+Including colspan, rowspan, and validation
+7. Semantic Tags
+
+<header>, <footer>, <nav>, <section>, <article>, <aside>, <figure>, <figcaption>
+8. Media Tags
+
+<video>, <audio>, <iframe>, <canvas>, <svg>
+9. Forms with Enhancements
+
+<datalist>, required, pattern, placeholder
+10. Embedding and Accessibility Tags
+
+alt, title, lang, aria-*
+11. SEO-Friendly HTML5 Elements
+
+<meta>, <link>, proper structure for SEO
+
+🔷 CSS SECTION
+1. What is CSS?
+2. Types of CSS
+
+Inline, Internal, External
+3. CSS Selectors
+
+Element, Class (.class), ID (#id)
+4. Colors, Fonts, Borders
+5. Padding, Margin, and the Box Model (Visual Explanation)
+6. Layout Techniques
+
+Flexbox and CSS Grid
+7. CSS Positioning
+
+static, relative, absolute, fixed, sticky
+8. Z-index, Float, and Clear
+9. Advanced Selectors
+
+:first-child, :last-child, :nth-child(3n), :not(), :hover
+10. CSS Functions
+
+calc(), clamp(), min(), max()
+11. CSS Variables
+
+--main-color, var() usage
+12. Transitions and Animations
+
+transition, @keyframes, animation
+13. Filters, Shadows, and Gradients
+
+filter: blur(), box-shadow, linear-gradient()
+14. Responsive Design with Media Queries
+
+@media (max-width: 768px) {...}
+

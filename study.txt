@@ -1,0 +1,61 @@
+📁 JavaScript Course Folder Structure
+=====================================
+
+00_Course_Requirements
+Basic HTML & CSS Knowledge
+
+01_JS_Basics
+Introduction to JavaScript
+
+02_JS_Variables_Operators
+Variables, Operators & Expressions
+
+03_JS_Data_Types
+Numbers, Strings, Boolean, Null, Undefined, Bigint, Symbol
+
+04_JS_Operators
+Arithmetic, Assignment, Comparison, Logical Operators
+
+05_JS_Conditional_Statements
+If-Else, Switch
+
+06_JS_Type_Coercion
+Implicit & Explicit Type Coercion
+
+07_JS_Objects_Arrays
+Objects & Arrays
+
+08_JS_Loops
+While, For Loops
+
+09_JS_Functions_Hoisting
+Functions, Arguments, Scope, Hoisting
+
+10_JS_DOM_Manipulation
+DOM: Selectors, Events, Styles, Create/Delete Elements
+
+11_JS_BOM
+BOM: Window, Screen, Navigator, History, Location
+
+12_JS_Mini_Projects
+Mini Project 1: Smartwatch
+
+Mini Project 2: Calculator
+
+13_JS_Regex
+Regular Expressions, Form Validation
+
+14_JS_OOPs
+this, Constructor, Prototype, Inheritance
+
+15_JS_HTTP_AJAX_JSON
+HTTP, JSON, AJAX, Promises
+
+16_jQuery_Basics
+Selectors, Events, AJAX
+
+17_JS_Assessment
+JavaScript Quiz/Assessment
+
+18_ES6_Concepts
+let/const, Arrow functions, Destructuring, Classes, Promises

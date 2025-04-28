@@ -1,0 +1,204 @@
+✅ var
+
+var se banaye gaye variables function-scoped hote hain.
+Inhe bar-bar declare aur re-assign kiya ja sakta hai.
+JavaScript me var ka use hoisting karta hai (upar le jata hai), lekin assign na hone tak undefined return karta hai.
+Ek hi naam se var multiple baar use karne par last value hi print hoti hai.
+
+📌 Example:
+var name = "Shah ji";
+var name = "Bittu Shah";
+var name = "Bittu";
+var name = "Ajay";
+
+console.log(name); // Output: "Ajay"
+
+
+✅ let
+
+let se banaye gaye variables block-scoped hote hain (if, loop, function ke andar ka block).
+let ko ek hi naam se dubara declare nahi kar sakte same scope me.
+Lekin uski value re-assign ki ja sakti hai.
+Agar dubara declare karne ki koshish karoge to error aayega: "Identifier has already been declared"
+
+
+📌 Example:
+var name = "Shah ji";
+var name = "Bittu Shah";
+var name = "Bittu";
+var name = "Ajay";
+
+console.log(name); // Output: "Ajay"
+
+
+✅ const
+
+const se banaye gaye variables bhi block-scoped hote hain.
+Isse banaya gaya variable na hi dubara declare ho sakta hai, na hi re-assign.
+const banate waqt value assign karna compulsory hota hai.
+Mostly ye constants, arrays, objects me use hota hai — jinki reference fix hoti hai.
+
+
+📌 Example: 
+const country = "India";
+// country = "USA"; ❌ Error: Assignment to constant variable
+
+const arr = [1, 2, 3];
+arr.push(4); // ✅ Allowed (array me value add ho sakti hai)
+console.log(arr); // Output: [1, 2, 3, 4]
+
+
+📊 Comparison Table:
+
+Keyword	    Scope	    Redeclare	    Reassign	    Hoisting	    Use For
+var	        Function	✅ Yes	        ✅ Yes	    ✅ Yes	        ❌ Avoid (legacy code)
+let	        Block	    ❌ No	        ✅ Yes	    ✅ Yes (TDZ)	    ✅ General variable usage
+const	    Block	    ❌ No	        ❌ No	    ✅ Yes (TDZ)	    ✅ Constants, Arrays/Objects
+
+
+
+🔸 1. Data Types kya hote hain?
+
+Data Types batate hain ki kisi variable me kis tarah ka data store hoga. JavaScript me mainly do tarah ke data types hote hain:
+
+1. Primitive Data Types
+2. Non-Primitive (Reference) Data Types
+
+
+🔹 1. Primitive Data Types
+Ye predefined hote hain, aur ek single value hold karte hain.
+
+Data Type	    Description	                                                        xample
+String	        Textual data	                                                    Hello"
+Number	        Integers ya decimals	                                            42, 3.14
+Boolean	T       rue/False value	                                                    true, false
+Undefined	    Jab variable declare to hota hai,par value assign nahi hoti	        let a;
+Null	        Intentionally empty value	                                        let a = null;
+Symbol	        Unique identifier (ES6)	                                            Symbol("id")
+BigInt	        Very large numbers (ES2020)	                                        1234567890n
+
+
+🔸 Examples:
+let name = "Bittu";        // String
+let age = 26;              // Number
+let isOnline = true;       // Boolean
+let x;                     // Undefined
+let data = null;           // Null
+let id = Symbol("id");     // Symbol
+let bigNum = 9999999999n; 
+
+
+🔹2. Non-Primitive (Reference) Data Types
+Ye complex data ko store karte hain, jaise array, object, function, etc.
+
+
+Data Type	        Description         	Example
+Object	            Key-value pair	        {name: "Bittu", age: 26}
+Array	            List of items	        ["Red", "Blue", "Green"]
+Function	        Reusable code block	    function sayHi() {}
+
+
+🔸 Examples:
+let person = { name: "Bittu", age: 26 };   // Object
+let colors = ["Red", "Blue", "Green"];    // Array
+function greet() {                        // Function
+  console.log("Hello!");
+}
+
+
+🔸 4. typeof Operator
+Ye check karta hai variable ka type:
+typeof "hello"     // "string"
+typeof 10          // "number"
+typeof true        // "boolean"
+typeof undefined   // "undefined"
+typeof null        // "object" ❗ (JavaScript ka old bug)
+typeof []          // "object"
+typeof {}          // "object"
+typeof function(){} // "function"
+
+
+🔸 1. Operators kya hote hain?
+
+Operators wo symbols ya keywords hote hain jo variables ya values par operations perform karte hain — jaise addition, comparison, assignment, etc.
+JavaScript me operators ki categories hoti hain:
+
+
+🔹 2. Types of Operators
+
+✅ (i) Arithmetic Operators
+Mathematical operations ke liye.
+
+
+Operator	Description	            Example
++	        Addition	            5 + 2 = 7
+-	        Subtraction	            5 - 2 = 3
+*	        Multiplication	        5 * 2 = 10
+/	        Division	            5 / 2 = 2.5
+%	        Modulus (Remainder)	    5 % 2 = 1
+**	        Exponentiation	        2 ** 3 = 8
+++	        Increment	            a++
+--	        Decrement	            a--
+
+
+🔸 Examples:
+
+let base = 2;
+let power = 3;
+console.log(base ** power); // ➤ 8 (2 × 2 × 2)
+
+let x = 5;
+console.log(x++);   // ➤ 5 (pehle print, fir increase → x = 6)
+console.log(x);  
+
+let y = 5;
+console.log(++y); // ➤ 6 (pehle increase, fir print)
+
+let x = 10;
+console.log(x--); // ➤ 10
+console.log(x);   // ➤ 9
+
+let y = 10;
+console.log(--y); // ➤ 9
+
+
+
+
+
+
+✅ (ii) Assignment Operators
+Variable me value assign karne ke liye.
+
+Operator	Example	            Same As
+=	        a = 5	            Assign 5 to a
++=	        a += 2	            a = a + 2
+-=	        a -= 2	            a = a - 2
+*=	        a *= 2	            a = a * 2
+/=	        a /= 2	            a = a / 2
+%=	        a %= 2	            a = a % 2
+
+
+
+✅ (iii) Comparison Operators
+Values ko compare karte hain, result true/false hota hai.
+
+Operator	Description	                                Example
+==	        Equal to (type ignore karta hai)	        5 == "5" → true
+===	        Strict Equal (type bhi check karta hai)	    5 === "5" → false
+!=	        Not equal	                                5 != 3 → true
+!==	        Strict not equal	                        5 !== "5" → true
+>	        Greater than	                            5 > 3 → true
+<	        Less than	                                5 < 3 → false
+>=	        Greater than or equal to	                5 >= 5 → true
+<=	        Less than or equal to	                    5 <= 6 → true
+
+
+
+
+✅ (iv) Logical Operators
+Conditions ko combine karne ke liye.
+
+Operator	Description	        Example
+&&	        Logical AND	        (a > 5 && a < 10)
+`		                         `
+!	        Logical NOT	        !(a > 5)
